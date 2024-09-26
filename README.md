@@ -37,7 +37,7 @@ This project is a Flask-based web application that acts as a visa assistant. The
     ```
 
 4. **Set up environment variables**:
-    - Create a `.env` file in the root directory and add your OpenAI API key:
+    - Edit the `.env` file and add your OpenAI API key:
       ```bash
       OPENAI_API_KEY=your_openai_api_key
       ```
