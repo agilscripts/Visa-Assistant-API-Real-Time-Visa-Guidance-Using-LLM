@@ -21,7 +21,7 @@ def ask_gpt():
     question = data.get('question')
 
     if question:
-        # Use the OpenAI client to generate a response
+        # Use the OpenAI client to generate response
         response = client.chat.completions.create(
             model="gpt-4",
             messages=[

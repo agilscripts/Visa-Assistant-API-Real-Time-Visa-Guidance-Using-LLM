@@ -26,7 +26,7 @@ function askAssistant() {
         const assistantMessage = document.createElement("div");
         assistantMessage.classList.add("chat-message", "assistant-message");
 
-        // Use innerHTML to parse the response and replace **bold** with <strong>bold</strong>
+        // Replace **bold** with <strong>bold</strong>
         let formattedResponse = data.response
             .replace(/\n/g, '<br>')  // Line breaks
             .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');  // Bold text
